@@ -8,7 +8,7 @@ function App() {
 
 
     const API_URL = 'http://localhost:7070/data'
-    const[{data: response, loading, error}] = useJsonFetch(API_URL, [])
+    const[response, loading, error] = useJsonFetch(API_URL, [])
 
 
     return (
